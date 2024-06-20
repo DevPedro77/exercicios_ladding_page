@@ -1,0 +1,29 @@
+.event {
+  border: 2px solid black;
+  padding: 80px 0;
+  background-color: red;
+  height: 100vh;
+  .container {
+    display: flex;
+
+  }
+
+  &_image {
+    max-width: 360px;
+  }
+
+  &__details {
+    margin-right: 40px;
+    &__title {
+      margin-bottom: 16px;
+      font-size: 18px;
+      font-weight: bold;
+      
+    }
+
+    &__description {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+}
